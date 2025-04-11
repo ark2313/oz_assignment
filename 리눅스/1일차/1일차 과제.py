@@ -32,7 +32,7 @@ Cal 5 2024
 
 
 
- echo "Hello Linux" | oz.txt
+ echo "Hello Linux" 1> oz.txt
 
 
 
