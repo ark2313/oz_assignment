@@ -155,7 +155,7 @@ echo "Hello, world!" | tee example.txt
 
 
 
-
+rm *.txt
 
 
    ]
