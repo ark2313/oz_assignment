@@ -6,12 +6,16 @@
    "source": [
     "문제1. 현재 작업 디렉터리를 나타내는 명령어를 작성해주세요"
    ]
+
+    
+
+
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : pwd"
    ]
   },
   {
@@ -30,7 +34,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 :  4번"
    ]
   },
   {
@@ -49,7 +53,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : 2번"
    ]
   },
   {
@@ -63,7 +67,8 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : locate"
+    ""
    ]
   },
   {
@@ -82,7 +87,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 :  2 번"
    ]
   },
   {
@@ -100,7 +105,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 : "
+    "정답 :  touch oz "
    ]
   },
   {
@@ -114,7 +119,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : mkdir {2023,2024}_{01,02,03,04,05,06,07,08,09,10,11,12}"
    ]
   },
   {
@@ -128,7 +133,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : cp index.html admin.html"
    ]
   },
   {
@@ -148,7 +153,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 :  3번"
    ]
   },
   {
@@ -162,7 +167,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "정답 :"
+    "정답 : nano oz.txt"
    ]
   }
  ],
