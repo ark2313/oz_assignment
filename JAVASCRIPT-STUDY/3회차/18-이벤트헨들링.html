@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+           이벤트 & 이벤트 헨들링
+        </title>
+
+
+    </head>
+
+    <body>
+        <button id="span">SPAN</button>
+        <button id="strong">STRONG</button>
+        <button id="mark">MARK</button>
+        <hr>
+
+        <script>
+            const spanBtn = document.getElementById("span")
+            const strongBtn = document.getElementById("strong")
+            const markBtn = document.getElementById("mark")
+
+            const hasdleClick=function(event){
+                if(event.target.id == "span"){
+                    const span = document.createElement("span")
+            span.textContent = "새로생긴 span 태그입니다"
+            document.body.append(span)
+                }else if(evnet.target.id == "strong"){
+                const span = document.createElement("strong")
+            strong.textContent = "새로생긴 strong 태그입니다"
+            document.body.append(span)
+            }else if(evnet.target.id == "mark"){
+                const span = document.createElement("mark")
+            mark.textContent = "새로생긴 mark 태그입니다"
+            document.body.append(span)
+            }
+
+        }
+
+            spanBtn.addEventListener("click", handleClick)
+            strongBtn.addEventListener("click", handleClick)
+            markBtn.addEventListener("click", handleClick)
+        </script>
+
+
+    </body>
+
+</html>

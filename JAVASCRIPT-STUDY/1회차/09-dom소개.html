@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+           DOM 소개 $ 콘텐츠 변경하기
+        </title>
+
+
+    </head>
+
+    <p>대한민국의 역습이다</p>
+    <p>손흥민 물고간다 크로스</p>
+    <p>조규성의 환상적인 마무리 골</p>
+    <body>
+        <script>
+            //입력 - 처리 - 출력
+            const p =document.querySelector("p")
+            console.log(p.textContent)
+            p.textContent = "우루과이의 역습이다"
+
+        </script>
+
+
+    </body>
+
+</html>
